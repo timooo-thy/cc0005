@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity: Hiking</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/static/styles.css">
+	<link rel="icon" href="/static/icon.ico">
+</head>
+<body>
+	<h1 id="neat">NEAT Activity: Hiking</h1>
+    <br><br>
+
+    <div id="maps">
+        <div id="route" style="height: 60vh; width:80%;"></div>
+    </div>
+    <br><br><br>
+
+    <div id="activity">
+        <input type="submit" value="Go!" onclick="displayMessage('Start hiking!');" id="add-activity">
+        <span class="info-icon">i</span>
+        <div class="tooltip">Bonus Challenge: Take a non-sheltered walkway!</div>
+    </div>
+
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIIWAoM7ATHEv0ZDr_62bHS-Z6G6eg150&callback=initMap"
+    async defer></script>
+    <script src="/static/script.js"></script>
+	<script type="text/javascript" src="/sstatic/script.js"></script>
+</body>
+</html>
