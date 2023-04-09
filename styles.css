@@ -1,7 +1,7 @@
 body {
 	background-color: #f4f4f4;
 	font-family: 'Lato', sans-serif;
-	background-image: url('background.jpg');
+	background-image: url('bg.jpg');
 	background-size: cover;
 }
 
@@ -146,9 +146,9 @@ input[type="text"], input[type="date"] {
   position: relative;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
 	body {
-		background-size: contain;
+		background-image: url("bg2.jpg")
 	}
 }
 
